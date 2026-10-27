@@ -49,7 +49,8 @@ The design uses an `always @(*)` block and a `case` statement to implement combi
 The testbench (`alu_tb.v`) applies input values and changes the select signal to exercise the ALU operations. Simulation can be performed in Vivado to inspect the output waveform and verify functionality.
 
 ## Elaborated Design
-<img width="1564" height="665" alt="Screenshot 2026-10-28 004645" src="https://github.com/user-attachments/assets/b29ca000-b7b2-4413-b503-f9472ada57c1" />
+<img width="1547" height="770" alt="Screenshot 2026-10-28 010905" src="https://github.com/user-attachments/assets/ac597113-0e58-43e4-ad09-80733422020e" />
+
 
 ## Waveform and it's explaination
 <img width="1564" height="665" alt="Screenshot 2026-10-28 004645" src="https://github.com/user-attachments/assets/7f94886e-c69f-44f7-86d1-6ea6c3fa4d64" />
