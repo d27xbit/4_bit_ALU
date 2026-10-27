@@ -14,7 +14,7 @@ module alu(
         3'b100: Y = A ^ B; //xor
         3'b101: Y = A << 1; //left shirt by 1 bit
         3'b110: Y = A >> 1; //right shift by 1 bit
-        3'b110: Y = ~A;          
+        3'b111: Y = ~A;          
         default: Y = 4'b0000;
     endcase 
     end      
